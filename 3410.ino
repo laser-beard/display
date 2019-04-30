@@ -3,7 +3,7 @@
 #include <OneWire.h>
 #include <DallasTemperature.h>
 
-OneWire bus(A5);
+OneWire bus(A2);
 
 DallasTemperature sensors(&bus);
 
